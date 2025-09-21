@@ -1,9 +1,9 @@
 import axios from 'axios';
 
 // const API_BASE_URL = 'http://localhost:8000';
-const API_BASE_URL = 'https://ai-services-carrier-ai.railway.app';
+const API_BASE_URL = 'https://ai-services-carrier-ai.railway.internal';
 // const BACKEND_BASE_URL = 'http://localhost:8080/api';
-const BACKEND_BASE_URL = 'https://carrier-advice-ai-backend.railway.app/api';
+const BACKEND_BASE_URL = 'https://carrier-advice-ai-backend.railway.internal/api';
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
